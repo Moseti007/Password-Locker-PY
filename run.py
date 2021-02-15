@@ -63,12 +63,13 @@ import random
 #     user.display_user_account()
 
 def main():
-    print("Hi,Hello!! Welcome to PassLock Credentials Check. Enter First Name.")
+    print("Hi,Hello!! Welcome PassLock Credentials Check. Enter User First Name.")
     first_name = input()
 
-    print(f"Hey {first_name} You're a step into PassLock. Enter last name.")
+    print(f"Hey {first_name} you're a step into PassLock. Please enter your last name.")
+    last_name = input()
 
-    print(f"Hey {first_name} {last_name} Input your credential your email ")
+    print(f"Hey {first_name} {last_name} input your credential user email ")
     user_email = input()
 
     user_in = int(input("Reply with 1 to enter password or 2 to generate a new password for you"))
